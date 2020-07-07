@@ -1,0 +1,613 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-06T22:50:04.592Z",
+        "line": 8,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 1556000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Help Button\", \"Help button must be in each page of website.\" and \"Story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Help Button\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Help button must be in each page of website.\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Story\"",
+                  "offset": 106
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Help Button\" and \"Help button must be in each page of website.\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 13060000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Help Button\" and \"Help button must be in each page of website.\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Help Button\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Help button must be in each page of website.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:19.354Z",
+        "line": 9,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 435000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"No Help Button On Log In Page\", \"After navigating to log in page, user supposed to see help button.\" and \"Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Help Button On Log In Page\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"After navigating to log in page, user supposed to see help button.\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Bug\"",
+                  "offset": 146
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"No Help Button On Log In Page\" and \"After navigating to log in page, user supposed to see help button.\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5815000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"No Help Button On Log In Page\" and \"After navigating to log in page, user supposed to see help button.\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Help Button On Log In Page\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"After navigating to log in page, user supposed to see help button.\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:25.628Z",
+        "line": 10,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 708000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Test Checkout Page\", \"Check out page must contain cart details calculated\" and \"Story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Checkout Page\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Check out page must contain cart details calculated\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Story\"",
+                  "offset": 120
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Test Checkout Page\" and \"Check out page must contain cart details calculated\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 6155000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Test Checkout Page\" and \"Check out page must contain cart details calculated\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Checkout Page\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Check out page must contain cart details calculated\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:32.566Z",
+        "line": 11,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 860000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Total price calculation is wrong\", \"Wrong calculation once user has discount or deal\" and \"Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Total price calculation is wrong\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Wrong calculation once user has discount or deal\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"Bug\"",
+                  "offset": 131
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Total price calculation is wrong\" and \"Wrong calculation once user has discount or deal\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5815000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Total price calculation is wrong\" and \"Wrong calculation once user has discount or deal\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Total price calculation is wrong\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Wrong calculation once user has discount or deal\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:39.275Z",
+        "line": 12,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;6",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 609000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Test Deal Linked Images\", \"Clicking of linked images, must take user to deals page\" and \"Story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Deal Linked Images\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Clicking of linked images, must take user to deals page\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Story\"",
+                  "offset": 129
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Test Deal Linked Images\" and \"Clicking of linked images, must take user to deals page\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5659000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Test Deal Linked Images\" and \"Clicking of linked images, must take user to deals page\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Deal Linked Images\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Clicking of linked images, must take user to deals page\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:45.560Z",
+        "line": 13,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;7",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Discount amount incorrect\", \"Discount amount on description and linked image discount amount does not match\" and \"Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Discount amount incorrect\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Discount amount on description and linked image discount amount does not match\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"Bug\"",
+                  "offset": 154
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Discount amount incorrect\" and \"Discount amount on description and linked image discount amount does not match\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5626000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Discount amount incorrect\" and \"Discount amount on description and linked image discount amount does not match\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Discount amount incorrect\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Discount amount on description and linked image discount amount does not match\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:51.891Z",
+        "line": 14,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;8",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 596000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Chat-unable to rename group name\", \"Members of chat group are not able to rename the group conversation\" and \"Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chat-unable to rename group name\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Members of chat group are not able to rename the group conversation\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"Bug\"",
+                  "offset": 150
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Chat-unable to rename group name\" and \"Members of chat group are not able to rename the group conversation\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5551000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Chat-unable to rename group name\" and \"Members of chat group are not able to rename the group conversation\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chat-unable to rename group name\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Members of chat group are not able to rename the group conversation\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:50:58.059Z",
+        "line": 15,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;9",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 783000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Perform SAT\", \"SAT test for China market\" and \"Story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Perform SAT\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"SAT test for China market\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Story\"",
+                  "offset": 87
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Perform SAT\" and \"SAT test for China market\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 6122000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Perform SAT\" and \"SAT test for China market\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Perform SAT\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"SAT test for China market\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:51:04.989Z",
+        "line": 16,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;10",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Raise performance of website prior to Black Friday\", \"Load test, scalability test and stress test\" and \"Story\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raise performance of website prior to Black Friday\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Load test, scalability test and stress test\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"Story\"",
+                  "offset": 144
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Raise performance of website prior to Black Friday\" and \"Load test, scalability test and stress test\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5543000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Raise performance of website prior to Black Friday\" and \"Load test, scalability test and stress test\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raise performance of website prior to Black Friday\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Load test, scalability test and stress test\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-06T22:51:11.174Z",
+        "line": 17,
+        "name": "Create and Validate Jira Issues",
+        "description": "",
+        "id": "jira-create-issue;create-and-validate-jira-issues;;11",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 720000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user creates a Jira issues by providing \"Failed to log in\", \"Log in functionality is failing once increased number of users sign in simultaneously\" and \"Bug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Failed to log in\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Log in functionality is failing once increased number of users sign in simultaneously\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"Bug\"",
+                  "offset": 152
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.user_creates_a_jira_issues_by_providing_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@accesskey\u003d\u0027p\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DMM2MC9\u0027, ip: \u0027192.168.1.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\ADMINI~1.DES\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2544b3860b0350ac36a639ce03174505\n*** Element info: {Using\u003dxpath, value\u003d//a[@accesskey\u003d\u0027p\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)\r\n\tat StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(CreateIssueSteps.java:67)\r\n\tat ✽.validate id, \"Failed to log in\" and \"Log in functionality is failing once increased number of users sign in simultaneously\" on UI(file:///C:/Users/Administrator.DESKTOP-DMM2MC9/IdeaProjects/APIHomeWork/src/test/resources/Jira/JiraIssue.feature:5)\r\n",
+              "duration": 5584000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "validate id, \"Failed to log in\" and \"Log in functionality is failing once increased number of users sign in simultaneously\" on UI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Failed to log in\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Log in functionality is failing once increased number of users sign in simultaneously\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefs.Jira.CreateIssueSteps.validate_id_and_on_ui(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Jira Create Issue",
+    "description": "",
+    "id": "jira-create-issue",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Jira/JiraIssue.feature",
+    "tags": []
+  }
+]

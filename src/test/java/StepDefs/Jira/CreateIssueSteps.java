@@ -63,22 +63,21 @@ public class CreateIssueSteps {
         WebDriver driver = Driver.getDriver();
         driver.navigate().to("http://localhost:8080");
         JiraLogInPage jiraLogInPage = new JiraLogInPage(driver);
-        HomePage homePage = new HomePage(driver);if(!homePage.projects.isDisplayed()){
-            jiraLogInPage.getLoggedIn(ConfigReader.getProperty("jiraUserName"), ConfigReader.getProperty("jiraUserPassword"));
-        }
+        HomePage homePage = new HomePage(driver);
+        jiraLogInPage.getLoggedIn(ConfigReader.getProperty("jiraUserName"), ConfigReader.getProperty("jiraUserPassword"));
         homePage.projects.click();
         homePage.currentProject.click();
         homePage.backlog.click();
         Actions actions=new Actions(driver);
-        actions.moveToElement(homePage.backLogBox);
-        JavascriptExecutor je=(JavascriptExecutor)driver;
-        je.executeScript("arguments[0].scrollIntoView(true);",homePage.summaries.get(homePage.summaries.size()));
-
+        actions.moveToElement(homePage.stories.get(homePage.stories.size()-1)).perform();
         SoftAssert softAssert=new SoftAssert();
         softAssert.assertEquals(ID,ID, "Validating ID");
-        softAssert.assertTrue(homePage.summaries.contains(summary), "Validating the summary is failed");
+        softAssert.assertTrue(homePage.summaries.get(homePage.summaries.size()-1).getText().equals(summary), "Validating the summary is failed");
         softAssert.assertEquals(homePage.keys.contains(KEY),"Validating Key");
         softAssert.assertAll();
+        Thread.sleep(500);
+        homePage.avatar.click();
+        homePage.log_out.click();
     }
 
     public static void clickIssue(List<WebElement> issues, String summary) {
